@@ -7,13 +7,13 @@ array(2) {
     array(2) {
       [0]=>
       array(7) {
-        ["active"]=>
-        bool(true)
         ["name"]=>
         string(10) "Selfridges"
+        ["active"]=>
+        bool(true)
         ["country"]=>
         string(6) "Russia"
-        ["users_count"]=>
+        ["user_reg"]=>
         int(50)
         ["money_spend"]=>
         int(3000)
@@ -24,13 +24,13 @@ array(2) {
       }
       [1]=>
       array(7) {
-        ["active"]=>
-        bool(false)
         ["name"]=>
         string(10) "Selfridges"
+        ["active"]=>
+        bool(false)
         ["country"]=>
         string(3) "Usa"
-        ["users_count"]=>
+        ["user_reg"]=>
         int(60)
         ["money_spend"]=>
         int(3000)
@@ -49,13 +49,13 @@ array(2) {
     array(1) {
       [0]=>
       array(7) {
-        ["active"]=>
-        bool(true)
         ["name"]=>
         string(6) "Yandex"
+        ["active"]=>
+        bool(true)
         ["country"]=>
         string(6) "Russia"
-        ["users_count"]=>
+        ["user_reg"]=>
         int(9000)
         ["money_spend"]=>
         int(3000)
@@ -66,9 +66,9 @@ array(2) {
       }
     }
   }
+}
 
-
-  ------------------------------------------
+-----------------------------------
 
 Array
 (
@@ -79,10 +79,10 @@ Array
                 (
                     [0] => Array
                         (
-                            [active] => 1
                             [name] => Selfridges
+                            [active] => 1
                             [country] => Russia
-                            [users_count] => 50
+                            [user_reg] => 50
                             [money_spend] => 3000
                             [money_win] => 9000
                             [money_proffit] => 6000
@@ -90,10 +90,10 @@ Array
 
                     [1] => Array
                         (
-                            [active] => 
                             [name] => Selfridges
+                            [active] => 
                             [country] => Usa
-                            [users_count] => 60
+                            [user_reg] => 60
                             [money_spend] => 3000
                             [money_win] => 9000
                             [money_proffit] => 6000
@@ -110,10 +110,10 @@ Array
                 (
                     [0] => Array
                         (
-                            [active] => 1
                             [name] => Yandex
+                            [active] => 1
                             [country] => Russia
-                            [users_count] => 9000
+                            [user_reg] => 9000
                             [money_spend] => 3000
                             [money_win] => 9000
                             [money_proffit] => 6000
@@ -124,4 +124,3 @@ Array
         )
 
 )
-
