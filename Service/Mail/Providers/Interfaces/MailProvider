@@ -1,0 +1,9 @@
+<?php
+namespace Service\Mail\Providers\Interfaces;
+
+interface MailProvider
+{
+
+    public function send();
+
+}
